@@ -11,7 +11,7 @@
     color: white;
   }
 
-  html,body {
+  body {
     height:100%;
     
   }
@@ -28,6 +28,7 @@
   nav .logo {
     margin-left: 2rem;
     font-size: 2rem;
+    width: 50rem;
     text-transform: uppercase;
     text-decoration: none;
     color:rgb(162, 130, 238);
@@ -101,12 +102,19 @@
     }
   }
 
+  .backgroundimage{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+    top: 100px;
+  }
+
   .picture{
-    background-image: url("../images/burger1.jpg");
     text-align: left;
     align-items: left;
-    height: 1200px;
-    
+     
   }
 
   .enter{
@@ -120,5 +128,8 @@
     padding: 6px 25px;
   }
 
-  
+  .logo {
+   width: 30px;
+   height: 30px;
+    }
   
