@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .the{
+    /* (h1)*/
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+   font-size: 75px;
+   font-weight: normal;
+  }
+  .bsi{ /* h2 */
+    /* bsi=beschreibung img   */
+    position: relative;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: normal;
+    font-size: 35px;
+    display: flex;  
+   justify-content: center;
+}
+
+.bsl{/* li */
+   /* 3 beschreibungen listen  */
+    width: 25%;
+    list-style: none;
+    margin: 20px;
+}
+.bs{ /* ul */
+    /* 3 beschreibungen  */
+    display: flex;
+    justify-content: center;
+}
+
+.bilder{ /* img */
+    /* 3 icons bei the idea */
+    display: flex;
+    width: 80px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 25px;
+    
+}
+
+
+.img{
+    /* bilder im div */
+    display: flex;  
+    justify-content: center;
+}
+section{
+    background-color: blueviolet;
+    
+   
+}
+.üsc{/*üsc= übeschrift cards  */
+    display: flex;
+    justify-content: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: white;
+    font-size: 75px;
+    margin-bottom: 70px;
+    margin-top:120px ;
+}
+
+
+.card-title{ display: flex;
+margin: 15px;
+font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.card-text{
+    margin-left: 15px;
+}
+.btn{
+    /* botten */
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 0%;
+    border-width: 2px;
+    font-weight: 500;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around ;
+    
+}
+
+.card1{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 39%;
+    width: 18%;
+    margin-top: 10%;
+}
+
+.card2{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 55%;
+    width: 18%;
+    margin-top: 4%;
+}
+
+.card3{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 70%;
+    width: 18%;
+}
+
+.card4{
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 53%;
+    width: 18%;
+    margin-top: 7%;
+}
