@@ -1,24 +1,20 @@
-:root {
-    --background-color: #819768;
-    --accent-color: #9ead8d71;
-  }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    color: white;
+    font-size: 22px;  
+
   }
 
   body {
-    height:100%;
+   height: 100%;
     
   }
   
 
   nav {
-    background-color: black;
     height: 3.5rem;
     display: flex;
     justify-content: space-between;
@@ -28,8 +24,6 @@
   nav .logo {
     margin-left: 2rem;
     font-size: 2rem;
-    width: 50rem;
-    text-transform: uppercase;
     text-decoration: none;
     color:rgb(162, 130, 238);
   }
@@ -84,7 +78,6 @@
     nav ul {
       height: min-content;
       width: 100%;
-      background-color: var(--background-color);
       display: none;
       position: absolute;
       top: 3.5rem;
@@ -102,34 +95,50 @@
     }
   }
 
-  .backgroundimage{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: 0;
-    top: 100px;
-  }
+  
 
-  .picture{
-    text-align: left;
-    align-items: left;
-     
-  }
+  .home{ 
+  min-height: 100vh;
+  background: url(../images/burger1.jpg)
+  no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -20.8rem;
+  display: flex;
+  align-items: center;
+  padding:  5%;
+    }
+    
 
-  .enter{
+    .home .content{
+      max-width: 60rem; 
+    }
+
+    .home .content h1{
+      font-size: 6rem;
+      color: white;
+      padding-top: 20rem;
+      font-style: italic;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .home .content p{
+      color: white;
+    }
+  
+
+
+  .button{
     background-color:rgb(162, 130, 238);
-    text-align: left;
-    font-size: 20px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
     text-decoration: none;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 6px 25px;
   }
 
-  .logo {
-   width: 30px;
-   height: 30px;
-    }
+  
   
